@@ -28,7 +28,7 @@ javac -classpath javalib.jar:tester.jar $file
 #Extract the tester jar
 #don't currently know a good way around this.
 if [ ! -d "tester" ]; then
-  jar -xvf tester.jar 
+  jar -xf tester.jar 
 fi
 
 #Do the test!
